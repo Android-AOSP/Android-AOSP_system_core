@@ -1577,7 +1577,7 @@ top:
         {
           if (argc != 3)
             return usage();
-          const char* command = no_rebind ? "forward:norebind:" : "forward";
+          const char* command = no_rebind ? "forward:norebind" : "forward";
           snprintf(buf, sizeof buf, "%s:%s:%s;%s", host_prefix, command, argv[1], argv[2]);
         }
 
